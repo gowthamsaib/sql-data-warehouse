@@ -180,14 +180,14 @@ BEGIN
         -- Summary
         SET @bronze_end_time = GETDATE();
         PRINT '----------------------------------------------------';
-        PRINT '✅ Loading Bronze Layer Completed';
+        PRINT 'Loading Bronze Layer Completed';
         PRINT '  - Total Load Duration: ' + CAST(DATEDIFF(SECOND, @bronze_start_time, @bronze_end_time) AS NVARCHAR) + ' seconds';
         PRINT '----------------------------------------------------';
 
     END TRY
     BEGIN CATCH
         PRINT '=====================================================';
-        PRINT '❌ ERROR OCCURRED DURING LOADING BRONZE LAYER';
+        PRINT 'ERROR OCCURRED DURING LOADING BRONZE LAYER';
         PRINT 'Error Message: ' + ERROR_MESSAGE();
         PRINT 'Error Number:  ' + CAST(ERROR_NUMBER() AS NVARCHAR);
         PRINT 'Error State:   ' + CAST(ERROR_STATE() AS NVARCHAR);
