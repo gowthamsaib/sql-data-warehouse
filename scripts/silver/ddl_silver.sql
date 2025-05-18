@@ -11,17 +11,18 @@ create table silver.crm_cust_info(
 	sdw_create_date DATETIME2 DEFAULT GETDATE()
 );
 
-IF OBJECT_ID ('silver.crm_prd_info','U') IS NOT NULL
-	DROP TABLE silver.crm_prd_info;
+if OBJECT_ID ('silver.crm_prd_info','U') is not null
+	drop Table silver.crm_prd_info;
 create table silver.crm_prd_info(
-	prd_id		INT,
-	prd_key		NVARCHAR(50),
-	prd_nm		NVARCHAR(50),
-	prd_cost	INT,
-	prd_line	NVARCHAR(50),
-	prd_start_dt DATETIME,
-	prd_end_dt	DATETIME,
-	sdw_create_date DATETIME2 DEFAULT GETDATE()
+	prd_id int,
+	cat_id nvarchar(50),
+	prd_key nvarchar(50),
+	prd_nm nvarchar (50),
+	prd_cost int,
+	prd_line nvarchar(50),
+	prd_start_dt date,
+	prd_end_dt date,
+	sdw_create_date datetime2 default getdate()
 );
 
 IF OBJECT_ID ('silver.crm_sales_details','U') IS NOT NULL
@@ -30,14 +31,14 @@ create table silver.crm_sales_details(
 	sls_ord_num		NVARCHAR(50),
 	sls_prd_key		NVARCHAR(50),
 	sls_cust_id		INT,
-	sls_order_dt	INT,
-	sls_ship_dt		INT,
-	sls_due_dt		INT,
+	sls_order_dt	DATE,
+	sls_ship_dt		DATE,
+	sls_due_dt		DATE,
 	sls_sales		INT,
 	sls_quantity	INT,
 	sls_price		INT,
 	sdw_create_date DATETIME2 DEFAULT GETDATE()
-);
+)
 
 IF OBJECT_ID ('silver.erp_cust_az12','U') IS NOT NULL
 	DROP TABLE silver.erp_cust_az12;
