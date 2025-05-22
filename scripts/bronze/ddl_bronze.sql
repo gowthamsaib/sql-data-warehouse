@@ -2,7 +2,7 @@
 -- File: bronze_tables.sql
 -- Author: Gowtham Sai Bhuvanam
 -- Created On:     5/14/2025
--- Project: Data Warehouse & Analytics Project
+-- Project: SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 -- Purpose:
 --   This script initializes all required tables under the 'bronze' schema.
 --   These tables store raw ingested data from ERP and CRM source systems.

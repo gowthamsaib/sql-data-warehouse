@@ -1,7 +1,7 @@
 -- ======================================================================================
 -- File:            ddl_silver.sql
 -- Author:          Gowtham Sai Bhuvanam
--- Project:         Data Warehouse & Analytics Project
+-- Project:         SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 -- Layer:           Silver
 -- Purpose:         
 --   - Defines the cleaned and transformed table structures for the 'silver' schema.

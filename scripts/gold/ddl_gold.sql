@@ -1,7 +1,7 @@
 -- =========================================================================================
 -- File:            ddl_gold.sql
 -- Author:          Gowtham Sai Bhuvanam
--- Project:         Data Warehouse & Analytics Project
+-- Project:         SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 -- Layer:           Gold (Analytics & Reporting Layer)
 --
 -- Purpose:

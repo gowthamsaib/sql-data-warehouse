@@ -3,7 +3,7 @@
 -- Location:       scripts/bronze/load_bronze.sql
 -- Author:         Gowtham Sai Bhuvanam
 -- Created On:     5/14/2025
--- Project:        Data Warehouse & Analytics Project (Medallion Architecture)
+-- Project:        SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration (Medallion Architecture)
 --
 -- Procedure Name: bronze.load_bronze
 --

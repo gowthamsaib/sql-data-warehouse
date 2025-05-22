@@ -1,7 +1,7 @@
 -- ========================================================================================
 -- File:            load_silver.sql
 -- Author:          Gowtham Sai Bhuvanam
--- Project:         Data Warehouse & Analytics Project
+-- Project:         SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 -- Layer:           Silver (Transformed Data Layer)
 --
 -- Purpose:
