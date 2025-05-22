@@ -148,6 +148,10 @@ To ensure accuracy and quality, the project includes:
 
 ---
 
+![Project Banner](docs/project_status.png)
+
+---
+
 ## 📘 Resources
 
 * [Naming Conventions](docs/naming.md)
