@@ -1,6 +1,6 @@
-# 🏢 Data Warehouse & Analytics Project
+# 🏢 SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 
-Welcome to the **Data Warehouse & Analytics Project** repository! 🚀
+Welcome to the **SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration** repository! 🚀
 This portfolio project showcases the end-to-end implementation of a modern data warehouse and analytics solution. It highlights data engineering best practices, efficient data modeling techniques, and actionable business intelligence using SQL and visualization tools.
 
 ---
