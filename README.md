@@ -1,17 +1,17 @@
-# 🏢 SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
+# SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration
 
-Welcome to the **SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration** repository! 🚀
+Welcome to the **SQL-Based ETL Pipeline & Analytics Architecture: CRM + ERP Integration** repository! 
 This portfolio project showcases the end-to-end implementation of a modern data warehouse and analytics solution. It highlights data engineering best practices, efficient data modeling techniques, and actionable business intelligence using SQL and visualization tools.
 
 ---
 
-## 🧱 Data Architecture – Medallion Design
+##  Data Architecture – Medallion Design
 
 The project follows the **Medallion Architecture** with three key layers:
 
-* **🔶 Bronze Layer**: Stores raw data ingested as-is from the source systems (ERP and CRM) via CSV files into SQL Server.
-* **⚪ Silver Layer**: Transforms, cleanses, and standardizes the raw data for analytical usability.
-* **🔷 Gold Layer**: Final business-ready layer modeled in a **Star Schema** for reporting and analysis.
+* ** Bronze Layer**: Stores raw data ingested as-is from the source systems (ERP and CRM) via CSV files into SQL Server.
+* ** Silver Layer**: Transforms, cleanses, and standardizes the raw data for analytical usability.
+* ** Gold Layer**: Final business-ready layer modeled in a **Star Schema** for reporting and analysis.
 
 See the visual documentation in the `docs/` folder:
 
@@ -22,7 +22,7 @@ See the visual documentation in the `docs/` folder:
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project demonstrates:
 
@@ -33,9 +33,9 @@ This project demonstrates:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
-### 📦 Data Engineering Goals:
+###  Data Engineering Goals:
 
 * Design and implement a scalable warehouse in SQL Server.
 * Integrate data from two source systems (ERP & CRM).
@@ -43,7 +43,7 @@ This project demonstrates:
 * Model analytical data in a star schema format.
 * Document the entire pipeline and model for stakeholder usage.
 
-### 📊 Analytics Goals:
+###  Analytics Goals:
 
 * Derive insights on:
 
@@ -54,7 +54,7 @@ This project demonstrates:
 
 ---
 
-## 🛠️ Tools & Resources Used
+##  Tools & Resources Used
 
 | Tool               | Purpose                                      |
 | ------------------ | -------------------------------------------- |
@@ -67,7 +67,7 @@ This project demonstrates:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 SQL-DATA-WAREHOUSE/
@@ -106,7 +106,7 @@ SQL-DATA-WAREHOUSE/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Setup Database**
    Run `init_database.sql` to initialize the `DataWarehouse` and create schemas.
@@ -129,7 +129,7 @@ SQL-DATA-WAREHOUSE/
 
 ---
 
-## 📊 Sample Business Questions Answered
+##  Sample Business Questions Answered
 
 * Which customer segments generate the most revenue?
 * What are the top-selling products by region?
@@ -138,7 +138,7 @@ SQL-DATA-WAREHOUSE/
 
 ---
 
-## 🧪 Test & Validation
+##  Test & Validation
 
 To ensure accuracy and quality, the project includes:
 
@@ -152,7 +152,7 @@ To ensure accuracy and quality, the project includes:
 
 ---
 
-## 📘 Resources
+##  Resources
 
 * [Naming Conventions](docs/naming.md)
 * [Data Catalogs](scripts/*/data_dictionary_*.md)
@@ -160,23 +160,23 @@ To ensure accuracy and quality, the project includes:
 
 ---
 
-## 🙌 About the Author
+##  About the Author
 
 Hi! I’m **Gowtham Sai Bhuvanam**, an aspiring Data Engineer and Analyst passionate about turning raw data into insights. This project demonstrates my skills in ETL design, data modeling, and SQL analytics as part of my professional portfolio.
 
-📌 [LinkedIn](https://linkedin.com/in/gowthamsaib)
-🌐 [Portfolio (Coming Soon)]()
-🎓 MS in Artificial Intelligence and Business Analytics @ USF (May 2025)
+ [LinkedIn](https://linkedin.com/in/gowthamsaib)
+ [Portfolio (Coming Soon)]()
+ MS in Artificial Intelligence and Business Analytics @ USF (May 2025)
 
 ---
 
-## 📬 Let's Connect!
+##  Let's Connect!
 
-Feel free to star ⭐ this repo and connect with me. I’d love to learn, collaborate, and grow with the data community!
+Feel free to rate this repo and connect with me. I’d love to learn, collaborate, and grow with the data community!
 
 ---
 
-## 📝 License
+##  License
 
 This project is open-source under the **MIT License**.
 Feel free to use, modify, and share with proper attribution.
