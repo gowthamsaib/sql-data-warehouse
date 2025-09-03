@@ -9,9 +9,9 @@ This portfolio project showcases the end-to-end implementation of a modern data 
 
 The project follows the **Medallion Architecture** with three key layers:
 
-* ** Bronze Layer**: Stores raw data ingested as-is from the source systems (ERP and CRM) via CSV files into SQL Server.
-* ** Silver Layer**: Transforms, cleanses, and standardizes the raw data for analytical usability.
-* ** Gold Layer**: Final business-ready layer modeled in a **Star Schema** for reporting and analysis.
+* **Bronze Layer**: Stores raw data ingested as-is from the source systems (ERP and CRM) via CSV files into SQL Server.
+* **Silver Layer**: Transforms, cleanses, and standardizes the raw data for analytical usability.
+* **Gold Layer**  : Final business-ready layer modeled in a **Star Schema** for reporting and analysis.
 
 See the visual documentation in the `docs/` folder:
 
@@ -164,7 +164,7 @@ To ensure accuracy and quality, the project includes:
 
 Hi! I’m **Gowtham Sai Bhuvanam**, an aspiring Data Engineer and Analyst passionate about turning raw data into insights. This project demonstrates my skills in ETL design, data modeling, and SQL analytics as part of my professional portfolio.
 
- [LinkedIn](https://linkedin.com/in/gowthamsaib)
+ [LinkedIn](https://linkedin.com/in/gowthamsaib277)
  [Portfolio (Coming Soon)]()
  MS in Artificial Intelligence and Business Analytics @ USF (May 2025)
 
